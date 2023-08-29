@@ -1,9 +1,9 @@
 import "./App.css";
-import MainPage from "./components/MainPage/MainPage";
+import MainPage from "./components/PageParts/MainPage";
 
 const appStyle={
-  height:'100%',
-  width:'100%',
+  height:'100vh',
+  width:'100vw',
   display:'flex',
   background:'black'
 }

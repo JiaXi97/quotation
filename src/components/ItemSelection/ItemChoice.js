@@ -2,9 +2,8 @@ import { Card } from "@mui/material";
 import React from "react";
 
 const ItemChoiceStyle={
-  height:'80%',
-  width:'80%',
-  display:'flex',
+  height:'600px',
+  width:'500px'
 }
 
 const ItemChoice = (props) => {
@@ -12,7 +11,7 @@ const ItemChoice = (props) => {
   const {title} =  props ;
   const {img} =  props ;
   const {price} =  props ;
-  return <Card style={ItemChoiceStyle}>11111</Card>;
+  return <Card style={ItemChoiceStyle}>{title}{img}{price}</Card>;
 };
 
 export default ItemChoice;
